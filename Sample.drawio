@@ -1,9 +1,50 @@
-<mxfile host="app.diagrams.net" modified="2022-11-02T07:32:21.432Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="7IGbQRXP3JeSYLKv3bu_" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-10T17:46:54.709Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="x6rOC3sYC3pFNXT1JdE0" version="20.5.3" type="github">
   <diagram id="2s6J8iNtEsx2Wpw-sGra" name="Page-1">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="789" dy="418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="VsCH20qZ2riGvABkS1xP-2" value="Consul Server" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" vertex="1" parent="1">
+          <mxGeometry x="90" y="248" width="42.599999999999994" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="VsCH20qZ2riGvABkS1xP-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VsCH20qZ2riGvABkS1xP-3" target="VsCH20qZ2riGvABkS1xP-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="151.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VsCH20qZ2riGvABkS1xP-3" value="Consul Client" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.management_console;fillColor=#D2D3D3;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="337" y="100" width="63" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="VsCH20qZ2riGvABkS1xP-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.005;entryY=0.697;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VsCH20qZ2riGvABkS1xP-4" target="VsCH20qZ2riGvABkS1xP-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VsCH20qZ2riGvABkS1xP-4" value="Consul Client" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.management_console;fillColor=#D2D3D3;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="337" y="270" width="63" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="VsCH20qZ2riGvABkS1xP-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VsCH20qZ2riGvABkS1xP-5" target="VsCH20qZ2riGvABkS1xP-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VsCH20qZ2riGvABkS1xP-5" value="Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="100" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VsCH20qZ2riGvABkS1xP-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="VsCH20qZ2riGvABkS1xP-8" target="VsCH20qZ2riGvABkS1xP-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VsCH20qZ2riGvABkS1xP-8" value="Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="50" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VsCH20qZ2riGvABkS1xP-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VsCH20qZ2riGvABkS1xP-12" target="VsCH20qZ2riGvABkS1xP-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VsCH20qZ2riGvABkS1xP-12" value="Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="270" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VsCH20qZ2riGvABkS1xP-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VsCH20qZ2riGvABkS1xP-13" target="VsCH20qZ2riGvABkS1xP-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VsCH20qZ2riGvABkS1xP-13" value="Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="210" width="80" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
